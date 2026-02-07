@@ -20,19 +20,22 @@ This project implements a VLAN-based office network using Cisco Packet Tracer wi
 Refer - topology.png
 
 ## 📁 Project Structure
-/Smart-Office-VLAN-Network
- ├── packet_tracer/
- │   └── smart_office.pkt
- ├── screenshots/
- │   ├── topology.png
- │   ├── ping_test.png
- │   └── website.png
- ├── config/
- │   ├── router.txt
- │   └── switch.txt
- ├── website/
- │   └── index.html
- └── README.md
+
+```
+Smart-Office-VLAN-Network/
+├── packet_tracer/
+│   └── smart_office.pkt
+├── screenshots/
+│   ├── topology.png
+│   ├── ping_test.png
+│   └── website.png
+├── config/
+│   ├── router.txt
+│   └── switch.txt
+├── website/
+│   └── index.html
+└── README.md
+```
 
 
 ## How to Run

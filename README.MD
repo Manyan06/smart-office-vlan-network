@@ -1,28 +1,50 @@
 # Smart Office VLAN Network
 
-## Description
-This project implements VLAN segmentation and inter-VLAN routing using Cisco Packet Tracer.
+## 📌 Overview
+This project implements a VLAN-based office network using Cisco Packet Tracer with inter-VLAN routing, wireless access, and internal web hosting.
 
-## Features
-- VLAN 10 (HR), VLAN 20 (IT), VLAN 30 (Sales)
-- Router-on-a-Stick
-- Wireless Access
+## Network Design
+- VLAN 10: HR (192.168.10.0/24)
+- VLAN 20: IT (192.168.20.0/24)
+- VLAN 30: Sales (192.168.30.0/24)
+- Router-on-a-Stick Inter-VLAN Routing
+- WRT300N Wireless Access Point
 - Internal Web Server
-- Secure Network Segmentation
 
 ## Tools
 - Cisco Packet Tracer
 - CLI Configuration
-- HTML
+- HTML/CSS
 
 ## Topology
---(screenshot)--
+Refer - topology.png
+
+## 📁 Project Structure
+/Smart-Office-VLAN-Network
+ ├── packet_tracer/
+ │   └── smart_office.pkt
+ ├── screenshots/
+ │   ├── topology.png
+ │   ├── ping_test.png
+ │   └── website.png
+ ├── config/
+ │   ├── router.txt
+ │   └── switch.txt
+ ├── website/
+ │   └── index.html
+ └── README.md
+
 
 ## How to Run
-1. Open .pkt file
-2. Power on devices
-3. Test using ping
-4. Access server via browser
+1. Open smart_office.pkt in Cisco Packet Tracer
+2. Power on all devices
+3. Test connectivity using ping
+4. Open http://192.168.30.2 in browser
+
+## ✅ Results
+- Successful inter-VLAN communication
+- Wireless client access
+- Internal website hosted
 
 ## Author
 Manya
